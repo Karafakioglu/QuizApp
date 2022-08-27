@@ -1,0 +1,57 @@
+.meta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+display: none;
+}
+
+.quiz{
+    border: 1px red solid;
+    min-width: 30rem;
+}
+
+.question-counter{
+    border-bottom: 1px solid blue;
+    margin: 1rem;
+}
+
+.question{
+    margin: 1rem;
+}
+
+.answer-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.answer-buttons > button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+.next-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.next-button > button{
+    height: 2rem;
+    width: 5rem;
+}
+
+.user-point{
+    text-align: center;
+}
